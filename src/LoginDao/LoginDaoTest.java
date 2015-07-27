@@ -11,6 +11,7 @@ public class LoginDaoTest {
 	@Test
 	public void test() {
 		assertTrue(LoginDao.validate("roshankamathfeb6@gmail.com","password"));
+		assertTrue(LoginDao.validate("roshankamathfeb6@gmail.com","password"));
 	}
-
+	
 }
